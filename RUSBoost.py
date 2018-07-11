@@ -282,4 +282,5 @@ class RUSBoost(AdaBoostClassifier):
                 # Normalize.
                 sample_weight /= sample_weight_sum
 
+               
         return self
